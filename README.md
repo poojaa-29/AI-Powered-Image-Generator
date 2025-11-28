@@ -71,31 +71,31 @@ This project implements an AI-powered image generator using open-source Stable D
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│                     Web Interface                         │
-│                    (Streamlit UI)                         │
-│                       app.py                              │
+│                     Web Interface                        │
+│                    (Streamlit UI)                        │
+│                       app.py                             │
 └───────────────────────┬──────────────────────────────────┘
                         │
                         ▼
 ┌──────────────────────────────────────────────────────────┐
-│                  Image Generator Core                     │
-│                 (Business Logic)                          │
-│                 image_generator.py                        │
-│  ┌────────────┬──────────────┬─────────────────────┐    │
-│  │  Prompt    │  Generation  │  Post-Processing    │    │
-│  │ Enhancement│    Engine    │  & Watermarking     │    │
-│  └────────────┴──────────────┴─────────────────────┘    │
+│                  Image Generator Core                    │
+│                 (Business Logic)                         │
+│                 image_generator.py                       │
+│  ┌────────────┬──────────────┬─────────────────────┐     │
+│  │  Prompt    │  Generation  │  Post-Processing    │     │
+│  │ Enhancement│    Engine    │  & Watermarking     │     │
+│  └────────────┴──────────────┴─────────────────────┘     │
 └───────────────────────┬──────────────────────────────────┘
                         │
                         ▼
 ┌──────────────────────────────────────────────────────────┐
-│              Stable Diffusion Model                       │
-│           (Hugging Face Diffusers)                        │
-│                                                           │
-│  ┌────────────┬──────────────┬─────────────────────┐    │
-│  │   Text     │     U-Net    │        VAE          │    │
-│  │  Encoder   │   Denoiser   │      Decoder        │    │
-│  └────────────┴──────────────┴─────────────────────┘    │
+│              Stable Diffusion Model                      │
+│           (Hugging Face Diffusers)                       │
+│                                                          │
+│  ┌────────────┬──────────────┬─────────────────────┐     │
+│  │   Text     │     U-Net    │        VAE          │     │
+│  │  Encoder   │   Denoiser   │      Decoder        │     │
+│  └────────────┴──────────────┴─────────────────────┘     │
 └──────────────────────────────────────────────────────────┘
 ```
 
@@ -760,5 +760,6 @@ The `samples/` directory contains example images generated with various prompts 
 
 
 </div>
+
 
 
