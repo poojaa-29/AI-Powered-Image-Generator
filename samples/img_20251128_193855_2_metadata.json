@@ -1,0 +1,13 @@
+{
+  "original_prompt": " a cute cat sitting on a windowsill, sunset lighting, highly detailed",
+  "enhanced_prompt": " a cute cat sitting on a windowsill, sunset lighting, highly detailed, oil painting, classical art, detailed brushstrokes",
+  "negative_prompt": "blurry, bad quality, distorted, ugly, low resolution",
+  "style": "oil_painting",
+  "guidance_scale": 7.5,
+  "num_inference_steps": 50,
+  "width": 512,
+  "height": 512,
+  "seed": null,
+  "timestamp": "2025-11-28T19:38:54.989038",
+  "image_number": 2
+}

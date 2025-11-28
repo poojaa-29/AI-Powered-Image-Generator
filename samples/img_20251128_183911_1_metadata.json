@@ -1,0 +1,13 @@
+{
+  "original_prompt": "a futuristic city at sunset, cyberpunk style\n",
+  "enhanced_prompt": "a futuristic city at sunset, cyberpunk style\n, highly detailed, 4K, professional photography, sharp focus, realistic",
+  "negative_prompt": "blurry, bad quality, distorted, ugly, low resolution",
+  "style": "photorealistic",
+  "guidance_scale": 7.5,
+  "num_inference_steps": 50,
+  "width": 512,
+  "height": 512,
+  "seed": null,
+  "timestamp": "2025-11-28T18:39:11.429223",
+  "image_number": 1
+}
