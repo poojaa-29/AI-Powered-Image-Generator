@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Model files
+*.ckpt
+*.safetensors
+models/
+
+# Generated images (keep folder structure)
+generated_images/*.png
+generated_images/*.jpg
+generated_images/*.json
+!generated_images/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
