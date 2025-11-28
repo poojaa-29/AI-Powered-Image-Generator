@@ -135,18 +135,6 @@ This project implements an AI-powered image generator using open-source Stable D
 
 ## 💻 Hardware Requirements
 
-### Recommended Configuration (GPU)
-
-| Component | Requirement |
-|-----------|-------------|
-| **GPU** | NVIDIA GPU with 6GB+ VRAM |
-| **Examples** | GTX 1060 6GB, RTX 2060, RTX 3060, or better |
-| **CPU** | Any modern processor |
-| **RAM** | 16GB system RAM |
-| **Storage** | 15GB free space (10GB for model, 5GB for dependencies) |
-| **OS** | Windows 10/11, Linux, macOS |
-| **Generation Time** | 10-30 seconds per image |
-
 ### Minimum Configuration (CPU Fallback)
 
 | Component | Requirement |
@@ -760,6 +748,7 @@ The `samples/` directory contains example images generated with various prompts 
 
 
 </div>
+
 
 
 
